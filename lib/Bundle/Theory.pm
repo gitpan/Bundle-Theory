@@ -2,7 +2,7 @@ package Bundle::Theory;
 
 # $Id: Meta.pm 3331 2008-01-22 19:24:49Z theory $
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 1;
 __END__
@@ -31,7 +31,7 @@ Bundle::Theory - A bundle to install all Theory's favorite modules
 This bundle contains all of Theory's most-used CPAN modules. These are
 essentials whenever I he builds a new system.
 
-=head1 Contents
+=head1 CONTENTS
 
 Term::ReadLine::Perl
 
@@ -45,6 +45,8 @@ Bundle::LWP
 
 Module::Build
 
+Module::Install
+
 ExtUtils::MakeMaker
 
 CPANPLUS
@@ -52,6 +54,8 @@ CPANPLUS
 CPAN::Reporter
 
 Test::Reporter
+
+CPAN::SQLite
 
 YAML
 
