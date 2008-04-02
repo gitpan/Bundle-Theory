@@ -1,5 +1,24 @@
 Revision history for Perl extension Bundle::Theory.
 
+1.03  2008-04-02T19:26:52
+      - Changed from nonexistent Test::Coverage to the correct name,
+        Test::Pod::Coverage.
+      - Changed from nonexistent Net::FTP::Server to the correct name,
+        Net::FTPServer.
+      - Removed IO::Socket::SSL for now, since its tests fail.
+      - Added:
+        + Want
+        + Parse::RecDescent
+        + JSON and JSON::XS
+        + App::Ack
+        + Modul::CoreList
+        + PPI
+        + Perl::Tidy
+        + Scalar::Util
+        + Text::Markdown
+        + Text::MultiMarkdown
+        + HTML::HeadParser
+
 1.02  2008-02-05 00:07:25
       - Added `t/basic.t` so that it would actually be distributed. Duh.
 

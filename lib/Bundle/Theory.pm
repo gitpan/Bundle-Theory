@@ -1,8 +1,8 @@
 package Bundle::Theory;
 
-# $Id: Meta.pm 3331 2008-01-22 19:24:49Z theory $
+# $Id: Theory.pm 3598 2008-04-02 19:25:01Z theory $
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 1;
 __END__
@@ -56,6 +56,8 @@ CPAN::Reporter
 Test::Reporter
 
 CPAN::SQLite
+
+Parse::RecDescent
 
 YAML
 
@@ -120,6 +122,8 @@ Digest::SHA1
 URI
 
 HTML::Parser
+
+HTML::HeadParser
 
 MIME::Base64
 
@@ -199,6 +203,8 @@ Data::Dumper::Names
 
 Data::Dumper
 
+PPI
+
 Perl::Critic
 
 HOP::Stream
@@ -225,7 +231,7 @@ Test::Class
 
 Test::Pod
 
-Test::Coverage
+Test::Pod::Coverage
 
 Test::JSON
 
@@ -259,6 +265,10 @@ Exporter::Tidy
 
 File::Find::Rule
 
+JSON::XS
+
+JSON
+
 JSON::Syck
 
 Lingua::EN::Inflect
@@ -287,11 +297,9 @@ Image::Info
 
 IO::All
 
-IO::Socket::SSL
-
 Net::Daemon
 
-Net::FTP::Server
+Net::FTPServer
 
 Text::Iconv
 
@@ -306,6 +314,20 @@ Return::Value
 Sub::Exporter
 
 Moose
+
+Want
+
+App::Ack
+
+Modul::CoreList
+
+Perl::Tidy
+
+Scalar::Util
+
+Text::Markdown
+
+Text::MultiMarkdown
 
 =head1 Author
 
