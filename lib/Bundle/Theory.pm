@@ -1,8 +1,8 @@
 package Bundle::Theory;
 
-# $Id: Theory.pm 3598 2008-04-02 19:25:01Z theory $
+# $Id: Theory.pm 3632 2008-04-09 22:15:25Z david $
 
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 
 1;
 __END__
@@ -14,13 +14,13 @@ other than all uppercase.
 
 =head1 NAME
 
-Bundle::Theory - A bundle to install all Theory's favorite modules
+Bundle::Theory - A bundle to install all of Theory's favorite modules
 
 =end comment
 
 =head1 Name
 
-Bundle::Theory - A bundle to install all Theory's favorite modules
+Bundle::Theory - A bundle to install all of Theory's favorite modules
 
 =head1 Synopsis
 
@@ -92,6 +92,8 @@ MasonX::Interp::WithCallbacks
 Module::Build::JSAN
 
 SVN::Notify
+
+SVN::Notify::Filter::Markdown
 
 Text::Diff::HTML
 
@@ -328,6 +330,8 @@ Scalar::Util
 Text::Markdown
 
 Text::MultiMarkdown
+
+Text::Trac
 
 =head1 Author
 
