@@ -1,8 +1,8 @@
 package Bundle::Theory;
 
-# $Id: Theory.pm 3637 2008-04-10 02:25:22Z david $
+# $Id: Theory.pm 3658 2008-04-21 20:26:14Z david $
 
-our $VERSION = '1.05';
+our $VERSION = '1.06';
 
 1;
 __END__
