@@ -1,8 +1,8 @@
 package Bundle::Theory;
 
-# $Id: Theory.pm 3658 2008-04-21 20:26:14Z david $
+# $Id: Theory.pm 4724 2009-09-22 22:17:51Z david $
 
-our $VERSION = '1.06';
+our $VERSION = '1.07';
 
 1;
 __END__
@@ -51,6 +51,8 @@ ExtUtils::MakeMaker
 
 CPANPLUS
 
+CPANPLUS::Dist::Build
+
 CPAN::Reporter
 
 Test::Reporter
@@ -59,7 +61,9 @@ CPAN::SQLite
 
 Parse::RecDescent
 
-YAML
+Regexp::Grammars
+
+YAML::Syck
 
 DBI
 
@@ -87,8 +91,6 @@ Lingua::Strfname
 
 Params::CallbackRequest
 
-MasonX::Interp::WithCallbacks
-
 Module::Build::JSAN
 
 SVN::Notify
@@ -98,10 +100,6 @@ SVN::Notify::Filter::Markdown
 Text::Diff::HTML
 
 Text::WordDiff
-
-Time::Piece::ISO
-
-Widget::Meta
 
 Text::Password::Pronounceable
 
@@ -140,8 +138,6 @@ Bundle::Email
 Email::Valid
 
 Module::Starter
-
-Image::Info
 
 Params::Validate
 
@@ -217,8 +213,6 @@ HOP::Parser
 
 TAP::Parser
 
-Parse::RecDescent
-
 Pod::Simple
 
 TAP::Harness
@@ -235,6 +229,8 @@ Test::Pod
 
 Test::Pod::Coverage
 
+Test::Spelling
+
 Test::JSON
 
 Test::XML
@@ -242,8 +238,6 @@ Test::XML
 Test::Output
 
 Test::Deep
-
-Test::Differences
 
 Test::Differences
 
@@ -262,6 +256,8 @@ Test::Number::Delta
 Test::Trap
 
 Test::Perl::Critic
+
+Test::XPath
 
 Exporter::Tidy
 
@@ -289,9 +285,15 @@ CGI
 
 HTML::Mason
 
+MasonX::Interp::WithCallbacks
+
 HTML::Template
 
 HTML::Template::Expr
+
+Template::Declare
+
+Template::Declare::Bricolage
 
 Template
 
@@ -309,8 +311,6 @@ Text::Iconv
 
 CPAN::Mini
 
-Data::GUID
-
 Class::MOP
 
 Return::Value
@@ -319,11 +319,19 @@ Sub::Exporter
 
 Moose
 
+MooseX::Declare
+
+Mouse
+
+Class::C3
+
+Attribute::Handlers
+
 Want
 
 App::Ack
 
-Modul::CoreList
+Module::CoreList
 
 Perl::Tidy
 
@@ -334,6 +342,12 @@ Text::Markdown
 Text::MultiMarkdown
 
 Text::Trac
+
+KinoSearch
+
+parent
+
+ExtUtils::CBuilder
 
 =head1 Author
 

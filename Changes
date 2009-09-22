@@ -1,5 +1,29 @@
 Revision history for Perl extension Bundle::Theory.
 
+1.07  2009-09-22T22:20:10
+      - Corrected Spelling of Module::CoreList.
+      - Added:
+        + Test::Spelling
+        + Test::XPath
+        + Template::Declare
+        + Template::Declare::Bricolage
+        + Regexp::Grammars
+        + YAML::Syck
+        + CPANPLUS::Dist::Build
+        + MooseX::Declare
+        + Mouse
+        + Class::C3
+        + Attribute::Handlers
+        + KinoSearch
+        + parent
+        + ExtUtils::CBuilder
+      - Removed:
+        + YAML
+        + Time::Piece::ISO
+        + Wiget::Meta
+        + Data::GUID
+        + A few Duplicates
+
 1.06  2008-05-05T17:51:28
       - Added ExtUtils::XSBuilder to Bundle::Theory::Apache2.
 
