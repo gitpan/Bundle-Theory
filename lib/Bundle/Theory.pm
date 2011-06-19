@@ -1,22 +1,9 @@
 package Bundle::Theory;
 
-# $Id: Theory.pm 4724 2009-09-22 22:17:51Z david $
-
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 1;
 __END__
-
-=begin comment
-
-Fake-out Module::Build. Delete if it ever changes to support =head1 headers
-other than all uppercase.
-
-=head1 NAME
-
-Bundle::Theory - A bundle to install all of Theory's favorite modules
-
-=end comment
 
 =head1 Name
 
@@ -33,209 +20,211 @@ essentials whenever he builds a new system.
 
 =head1 CONTENTS
 
-Term::ReadLine::Perl
+aliased
 
-Cwd
+App::Ack
 
-Bundle::CPAN
-
-Bundle::libnet
-
-Bundle::LWP
-
-Module::Build
-
-Module::Install
-
-ExtUtils::MakeMaker
-
-CPANPLUS
-
-CPANPLUS::Dist::Build
-
-CPAN::Reporter
-
-Test::Reporter
-
-CPAN::SQLite
-
-Parse::RecDescent
-
-Regexp::Grammars
-
-YAML::Syck
-
-DBI
-
-DBD::SQLite
-
-DBD::Pg
+App::Cmd
 
 App::Info
 
-Class::Delegator
+Array::AsHash
 
-Data::Types
+Attribute::Handlers
 
-Class::Meta
+Bundle::CPAN
 
-Class::Meta::Express
+Bundle::Email
 
-Encode::ZapCP1252
+Bundle::LWP
 
-Exception::Class::DBI
+Bundle::libnet
 
-FSA::Rules
+CGI
 
-Lingua::Strfname
+CHI
 
-Params::CallbackRequest
+CPAN::Mini
 
-Module::Build::JSAN
-
-SVN::Notify
-
-SVN::Notify::Filter::Markdown
-
-Text::Diff::HTML
-
-Text::WordDiff
-
-Text::Password::Pronounceable
-
-XMLRPC::Lite
-
-Time::HiRes
+CPAN::SQLite
 
 Cache::Cache
 
 Cache::Mmap
 
-CHI
+Class::BuildMethods
 
-Cache::Memcached
+Class::C3
+
+Class::Delegator
+
+Class::MOP
+
+Class::Meta
+
+Class::Meta::Express
+
+Class::Trait
+
+Cwd
+
+DBD::Pg
+
+DBD::SQLite
+
+DBI
+
+DBIx::Connector
+
+DB_File
+
+Data::Dump
+
+Data::Types
+
+DateTime
+
+DateTime::Format::Strptime
+
+DateTime::Incomplete
+
+DateTime::TimeZone
 
 Digest::MD5
 
 Digest::SHA1
 
-URI
-
-HTML::Parser
-
-HTML::HeadParser
-
-MIME::Base64
-
-MIME::Tools
-
-MIME::Types
-
-MIME::Lite
-
-Bundle::Email
-
 Email::Valid
 
-Module::Starter
+Encode
 
-Params::Validate
+Encode::ZapCP1252
 
-DB_File
+Event
 
-XML::Parser
+Exception::Class::DBI
 
-XML::Simple
+ExtUtils::CBuilder
 
-XML::Generator
+ExtUtils::MakeMaker
 
-XML::LibXML
+FSA::Rules
 
-XML::Writer
-
-XML::SAX
-
-IO::Stringy
+File::Find::Rule
 
 File::Path
 
 File::Temp
 
-Text::LevenshteinXS
+HTML::HeadParser
 
-Locale::Maketext
+HTML::Mason
 
-DateTime
+HTML::Parser
 
-DateTime::TimeZone
+IO::All
 
-DateTime::Incomplete
+IO::Stringy
 
-DateTime::Format::Strptime
+Image::Info
 
-Encode
-
-Event
-
-Term::ReadPassword
-
-List::Util
-
-List::MoreUtils
-
-URI::Escape
+Imager
 
 Iterator
 
 Iterator::Util
 
-aliased
+JSON
 
-Array::AsHash
+JSON::XS
 
-Class::BuildMethods
+Lingua::EN::Inflect
 
-Class::Trait
+Lingua::Strfname
 
-Data::Dumper::Names
+List::MoreUtils
 
-Data::Dumper
+List::Util
 
-PPI
+Locale::Maketext
+
+Lucy
+
+MIME::Base64
+
+MIME::Lite
+
+MIME::Tools
+
+MIME::Types
+
+Module::Build
+
+Module::Build::DB
+
+Module::CoreList
+
+Module::Install
+
+Moose
+
+MooseX::Declare
+
+Mouse
+
+namespace::autoclean
+
+Net::Daemon
+
+Net::LDAP
+
+Net::SSLeay
+
+Params::Validate
+
+parent
+
+Parse::RecDescent
 
 Perl::Critic
 
-HOP::Stream
+Perl::Tidy
 
-HOP::Lexer
+Plack
 
-HOP::Parser
+Plack::Middleware::MethodOverride
 
-TAP::Parser
+Plack::Middleware::Session
+
+Plack::Session::Store::File
 
 Pod::Simple
 
-TAP::Harness
+Regexp::Common
 
-Test::Harness
+Return::Value
 
-Test::More
+Router::Resource
 
-Test::MockModule
+Scalar::Util
+
+SemVer
+
+Sub::Exporter
+
+TAP::Parser::SourceHandler::pgTAP
+
+Template::Declare
+
+Template::Declare::Bricolage
+
+Term::ReadLine::Perl
+
+Term::ReadPassword
 
 Test::Class
 
-Test::Pod
-
-Test::Pod::Coverage
-
-Test::Spelling
-
-Test::JSON
-
-Test::XML
-
-Test::Output
+Test::Data::Array
 
 Test::Deep
 
@@ -247,122 +236,83 @@ Test::File
 
 Test::File::Contents
 
-Test::NoWarnings
+Test::Harness
 
-Test::Data::Array
+Test::JSON
+
+Test::MockModule
+
+Test::More
+
+Test::NoWarnings
 
 Test::Number::Delta
 
-Test::Trap
+Test::Output
 
 Test::Perl::Critic
 
+Test::Pod
+
+Test::Pod::Coverage
+
+Test::Reporter
+
+Test::Reporter::Transport::Metabase
+
+Test::Spelling
+
+Test::Trap
+
+Test::XML
+
 Test::XPath
 
-Exporter::Tidy
+Text::Diff::HTML
 
-File::Find::Rule
-
-JSON::XS
-
-JSON
-
-JSON::Syck
-
-Lingua::EN::Inflect
-
-Regexp::Common
-
-App::Cmd
-
-version
-
-Net::SSLeay
-
-Net::LDAP
-
-CGI
-
-HTML::Mason
-
-MasonX::Interp::WithCallbacks
-
-HTML::Template
-
-HTML::Template::Expr
-
-Template::Declare
-
-Template::Declare::Bricolage
-
-Template
-
-Imager
-
-Image::Info
-
-IO::All
-
-Net::Daemon
-
-Net::FTPServer
-
-Text::Iconv
-
-CPAN::Mini
-
-Class::MOP
-
-Return::Value
-
-Sub::Exporter
-
-Moose
-
-MooseX::Declare
-
-Mouse
-
-Class::C3
-
-Attribute::Handlers
-
-Want
-
-App::Ack
-
-Module::CoreList
-
-Perl::Tidy
-
-Scalar::Util
+Text::LevenshteinXS
 
 Text::Markdown
 
 Text::MultiMarkdown
 
+Text::Password::Pronounceable
+
 Text::Trac
 
-KinoSearch
+Text::WordDiff
 
-parent
+Time::HiRes
 
-ExtUtils::CBuilder
+Try::Tiny
+
+URI
+
+URI::Escape
+
+version
+
+WWW::PGXN
+
+Want
+
+XML::Builder
+
+XML::LibXML
+
+XML::Parser
+
+XML::Simple
+
+XML::Writer
 
 =head1 Author
 
-=begin comment
+David E. Wheeler <david@justatheory.com>
 
-Fake-out Module::Build. Delete if it ever changes to support =head1 headers
-other than all uppercase.
+=head1 Copyright and License
 
-=head1 AUTHOR
-
-=end comment
-
-David E. Wheeler <david@kineticode.com>
-
-=head1 License
+Copyright (c) 2008-2011 David E. Wheeler. Some Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.

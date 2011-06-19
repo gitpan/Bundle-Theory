@@ -1,8 +1,6 @@
 package Bundle::Theory::Apache;
 
-# $Id: Theory.pm 3635 2008-04-09 22:19:51Z david $
-
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 
 1;
 __END__
@@ -54,9 +52,11 @@ Apache::FakeTable
 
 =head1 Author
 
-David E. Wheeler <david@kineticode.com>
+David E. Wheeler <david@justatheory.com>
 
-=head1 License
+=head1 Copyright and License
+
+Copyright (c) 2008-2011 David E. Wheeler. Some Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
